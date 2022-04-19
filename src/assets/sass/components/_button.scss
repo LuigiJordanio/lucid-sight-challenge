@@ -1,0 +1,27 @@
+
+button {
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 8px;
+    height: 36px;
+    background-color: #6e707a;
+    border: none;
+    cursor: pointer;
+  
+    &.button-icon {
+      font-weight: bold;
+      width: 36px;
+      height: 36px;
+      border-radius: 100%;
+  
+      img {
+        width: 100%;
+      }
+  
+      &.active {
+        background-color: #fff;
+        color: #100e1d;
+      }
+    }
+  }
